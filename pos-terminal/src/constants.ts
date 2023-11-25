@@ -13,7 +13,7 @@ export const chainConfig = {
     name: "Klaytn Mainnet",
     vaultFactory: "0xec61d69964004eaa23ab76c721824650b9276e0a",
     posTerminal: "0x4CA8E42c9483dF5421c1d9b3d5794acDBF18f923",
-    rpc: "https://public-en-cypress.klaytn.net",
+    rpc: "https://klaytn.blockpi.network/v1/rpc/public",
     usdc: "0x754288077D0fF82AF7a5317C7CB8c444D421d103",
     usdt: "0xceE8FAF64bB97a73bb51E115Aa89C17FfA8dD167",
     router: "0x6C14E2e4bae412137437A8Ec9e57263212d141A0",
