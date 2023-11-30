@@ -16,6 +16,7 @@ This monorepo contains 3 subrepos each playing a crucial role for the applicatio
 
 - `smart-contracts` - bootstrapped with hardhat with ethers. It is used to build the contracts and manage deployments on klaytn.
 - `pos-terminal` - browser-dapp running on the PoS device to handle transaction payments for a retailer. It utilises Ethers to emit transactions to the klaytn network
+  - The terminal uses public RPCs from **BlockPI** to power its functionality. [click for proof](https://github.com/WuBruno/klaytn-hack/blob/2825b9d1e278febb35c754225f2bda78fcac1c9f/pos-terminal/src/constants.ts#L16)
 - `nfc-reading-server` - runs a local endpoint that feeds nfc cards read by a local reader to the pos-terminal dapp
 
 ## Contracts
